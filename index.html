@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodBridge | Food Waste Management & Donation System</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.js">
+</head>
+<body>
+
+  <header>
+    <div class="logo">FoodBridge</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#how">How It Works</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Save Food. Feed Lives.</h1>
+      <p>
+        FoodBridge connects restaurants, hostels, and event organizers with NGOs and communities to redistribute surplus food efficiently.
+      </p>
+      <a href="#donate" class="btn btn-primary">Donate Food</a>
+      <a href="#how" class="btn btn-secondary">How It Works</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Our Mission</h2>
+    <p class="section-subtitle">
+      Every day, tons of edible food is wasted while many people sleep hungry. Our platform helps reduce food waste by enabling quick and safe food donation.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🍱</div>
+        <h3>Surplus Food Collection</h3>
+        <p>Restaurants and events can list extra food with quantity, location, and pickup time.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🤝</div>
+        <h3>NGO Connection</h3>
+        <p>Nearby NGOs and volunteers receive alerts and accept food donations instantly.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚚</div>
+        <h3>Smart Delivery</h3>
+        <p>Volunteers can pick up food and deliver it to needy communities quickly.</p>
+      </div>
+    </div>
+
+
+
+    <div style="text-align:center;">
+    <video width="700" height="400" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+  </section>
+
+  <section id="how">
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-subtitle">A simple process to rescue food and serve communities.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">1️⃣</div>
+        <h3>Post Donation</h3>
+        <p>Donor uploads food details, location, and available pickup time.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">2️⃣</div>
+        <h3>Match NGO</h3>
+        <p>The system finds nearby NGOs or volunteers based on food quantity and distance.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">3️⃣</div>
+        <h3>Deliver Food</h3>
+        <p>Food is collected and distributed to people in need before expiry.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="impact">
+    <h2 class="section-title">Our Impact</h2>
+    <div class="impact-grid">
+      <div class="impact-box">
+        <h2>12K+</h2>
+        <p>Meals Saved</p>
+      </div>
+      <div class="impact-box">
+        <h2>80+</h2>
+        <p>NGOs Connected</p>
+      </div>
+      <div class="impact-box">
+        <h2>5T+</h2>
+        <p>Food Rescued</p>
+      </div>
+      <div class="impact-box">
+        <h2>150+</h2>
+        <p>Active Volunteers</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section" id="donate">
+    <h2 class="section-title">Donate Surplus Food</h2>
+    <p class="section-subtitle">Fill the form below to list available food for donation.</p>
+
+    <form>
+      <div class="form-group">
+        <label>Donor Name</label>
+        <input type="text" placeholder="Restaurant / Hostel / Event Name" required />
+      </div>
+
+      <div class="form-group">
+        <label>Food Type</label>
+        <select required>
+          <option value="">Select food type</option>
+          <option>Vegetarian</option>
+          <option>Non-Vegetarian</option>
+          <option>Mixed</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Quantity</label>
+        <input type="text" placeholder="Example: Serves 50 people" required />
+      </div>
+
+      <div class="form-group">
+        <label>Pickup Location</label>
+        <input type="text" placeholder="Enter complete address" required />
+      </div>
+
+      <div class="form-group">
+        <label>Pickup Deadline</label>
+        <input type="datetime-local" required />
+      </div>
+
+      <div class="form-group">
+        <label>Additional Details</label>
+        <textarea placeholder="Mention packaging, freshness, special instructions..."></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Donation</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-subtitle">
+      Want to partner as an NGO, donor, or volunteer? Reach us at <strong>support@foodbridge.org</strong>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 FoodBridge. Save Food. Serve Humanity.</p>
+  </footer>
+
+</body>
+</html>
